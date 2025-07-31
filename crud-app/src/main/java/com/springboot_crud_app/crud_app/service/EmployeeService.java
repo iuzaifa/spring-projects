@@ -15,5 +15,5 @@ public interface EmployeeService {
 
     EmployeeResponse employeeGetById(Long id);
 
-    EmployeeResponse updateEmployee(Long id);
+    EmployeeResponse updateEmployee(Long id, EmployeeRequest employeeRequest);
 }
