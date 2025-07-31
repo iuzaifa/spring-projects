@@ -43,7 +43,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     }
 
     @Override
-    public EmployeeResponse employeeGetById(Long id) {
+    public EmployeeResponse getEmployeeById(Long id) {
         if (id == null) {
             throw new IllegalArgumentException("Employee ID must not be null");
         }
