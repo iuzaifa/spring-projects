@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ayaan Khan",
+    "email": "ayaan.khan@example.com",
+    "department": "Engineering",
+    "salary": 75000.00
+  },
+  {
+    "name": "Fatima Sheikh",
+    "email": "fatima.sheikh@example.com",
+    "department": "Human Resources",
+    "salary": 55000.00
+  },
+  {
+    "name": "Zayd Ansari",
+    "email": "zayd.ansari@example.com",
+    "department": "Finance",
+    "salary": 67000.00
+  },
+  {
+    "name": "Aisha Siddiqui",
+    "email": "aisha.siddiqui@example.com",
+    "department": "Marketing",
+    "salary": 60000.00
+  },
+  {
+    "name": "Yusuf Qureshi",
+    "email": "yusuf.qureshi@example.com",
+    "department": "IT Support",
+    "salary": 48000.00
+  },
+  {
+    "name": "Maryam Farooqi",
+    "email": "maryam.farooqi@example.com",
+    "department": "Operations",
+    "salary": 58000.00
+  },
+  {
+    "name": "Ibrahim Shaikh",
+    "email": "ibrahim.shaikh@example.com",
+    "department": "Engineering",
+    "salary": 79000.00
+  },
+  {
+    "name": "Noor Jahan",
+    "email": "noor.jahan@example.com",
+    "department": "Legal",
+    "salary": 72000.00
+  },
+  {
+    "name": "Ali Rizvi",
+    "email": "ali.rizvi@example.com",
+    "department": "Research & Development",
+    "salary": 82000.00
+  },
+  {
+    "name": "Huda Mirza",
+    "email": "huda.mirza@example.com",
+    "department": "Customer Success",
+    "salary": 54000.00
+  }
+]

@@ -6,11 +6,13 @@ import com.springboot_crud_app.crud_app.entity.Employee;
 import com.springboot_crud_app.crud_app.mapper.EmployeeMapper;
 import com.springboot_crud_app.crud_app.repository.EmployeeRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
+@Service
 public class EmployeeServiceImpl implements EmployeeService{
 
     private final EmployeeRepository employeeRepository;
