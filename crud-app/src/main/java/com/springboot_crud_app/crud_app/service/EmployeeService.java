@@ -1,13 +1,13 @@
 package com.springboot_crud_app.crud_app.service;
 
 import com.springboot_crud_app.crud_app.dto.EmployeeResponse;
-import com.springboot_crud_app.crud_app.dto.RequestEmployee;
+import com.springboot_crud_app.crud_app.dto.EmployeeRequest;
 
 import java.util.List;
 
 public interface EmployeeService {
 
-    EmployeeResponse createEmployee(RequestEmployee requestEmployee);
+    EmployeeResponse createEmployee(EmployeeRequest employeeRequest);
 
     List<EmployeeResponse> getAllEmployee();
 

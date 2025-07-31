@@ -1,9 +1,9 @@
 package com.springboot_crud_app.crud_app.service;
 
 import com.springboot_crud_app.crud_app.dto.EmployeeResponse;
-import com.springboot_crud_app.crud_app.dto.RequestEmployee;
+import com.springboot_crud_app.crud_app.dto.EmployeeRequest;
+import com.springboot_crud_app.crud_app.entity.Employee;
 import com.springboot_crud_app.crud_app.repository.EmployeeRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;
@@ -14,7 +14,8 @@ public class EmployeeServiceImpl implements EmployeeService{
     private final EmployeeRepository employeeRepository;
 
     @Override
-    public EmployeeResponse createEmployee(RequestEmployee requestEmployee) {
+    public EmployeeResponse createEmployee(EmployeeRequest employeeRequest) {
+        Employee employee = employeeRepository.save(employeeRequest);
         return null;
     }
 
