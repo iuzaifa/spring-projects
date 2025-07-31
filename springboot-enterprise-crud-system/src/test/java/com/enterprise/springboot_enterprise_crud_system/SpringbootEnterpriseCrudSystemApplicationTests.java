@@ -1,10 +1,10 @@
-package com.springboot_crud_app.crud_app;
+package com.enterprise.springboot_enterprise_crud_system;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudAppApplicationTests {
+class SpringbootEnterpriseCrudSystemApplicationTests {
 
 	@Test
 	void contextLoads() {
