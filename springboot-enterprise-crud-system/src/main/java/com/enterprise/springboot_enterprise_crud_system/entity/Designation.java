@@ -7,8 +7,7 @@ import jakarta.persistence.OneToMany;
 
 import java.util.List;
 
-public class Attendance {
-
+public class Designation {
 
 
     @Id
@@ -16,7 +15,6 @@ public class Attendance {
     private Long id;
 
     private String name;
-
 
     @OneToMany(mappedBy = "designation")
     private List<Employee> employees;

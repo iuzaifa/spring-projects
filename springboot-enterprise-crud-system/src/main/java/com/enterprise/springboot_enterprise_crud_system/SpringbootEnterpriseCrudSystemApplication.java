@@ -14,34 +14,3 @@ public class SpringbootEnterpriseCrudSystemApplication {
 
 }
 
-
-/*
-*
-* src/main/java/com/yourproject
-├── controller
-│   ├── EmployeeController.java
-│   └── DepartmentController.java
-├── service
-│   ├── EmployeeService.java        <-- Interface
-│   └── impl
-│       └── EmployeeServiceImpl.java
-├── dto
-│   └── EmployeeRequest.java
-│   └── EmployeeResponse.java
-├── mapper
-│   └── EmployeeMapper.java
-├── model
-│   └── Employee.java
-│   └── Department.java
-├── repository
-│   └── EmployeeRepository.java
-├── constants
-│   └── AppConstants.java
-├── exception
-│   ├── GlobalExceptionHandler.java
-│   └── ResourceNotFoundException.java
-└── util
-    └── HelperUtil.java (optional)
-
-*
-* */
