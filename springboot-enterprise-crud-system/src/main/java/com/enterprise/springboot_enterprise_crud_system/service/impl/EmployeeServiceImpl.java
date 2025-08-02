@@ -1,7 +1,7 @@
 package com.enterprise.springboot_enterprise_crud_system.service.impl;
 
-import com.enterprise.springboot_enterprise_crud_system.dto.EmployeeRequest;
-import com.enterprise.springboot_enterprise_crud_system.dto.EmployeeResponse;
+import com.enterprise.springboot_enterprise_crud_system.dto.request.EmployeeRequest;
+import com.enterprise.springboot_enterprise_crud_system.dto.response.EmployeeResponse;
 import com.enterprise.springboot_enterprise_crud_system.service.EmployeeService;
 import org.springframework.stereotype.Service;
 

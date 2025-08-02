@@ -1,7 +1,7 @@
 package com.enterprise.springboot_enterprise_crud_system.service;
 
-import com.enterprise.springboot_enterprise_crud_system.dto.EmployeeRequest;
-import com.enterprise.springboot_enterprise_crud_system.dto.EmployeeResponse;
+import com.enterprise.springboot_enterprise_crud_system.dto.request.EmployeeRequest;
+import com.enterprise.springboot_enterprise_crud_system.dto.response.EmployeeResponse;
 
 import java.util.List;
 
