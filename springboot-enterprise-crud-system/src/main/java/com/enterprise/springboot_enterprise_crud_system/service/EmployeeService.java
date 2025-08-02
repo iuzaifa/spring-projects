@@ -23,7 +23,6 @@ public interface EmployeeService {
 
     EmployeeResponse getEmployeeByPhone(String  phone);
 
-    EmployeeResponse getEmployeeByPhonec(String  phone);
 
 }
 
