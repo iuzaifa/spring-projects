@@ -46,8 +46,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public void deleteEmployeeById(Long id) {
-        Employee employee = employeeRepository.findById(id)
-                .orElseThrow(() -> new NotFoundException("Employee id Not Exits Please Try right Id :"));
+//        Employee employee = employeeRepository.findById(id)
+//                .orElseThrow(() -> new NotFoundException("Employee id Not Exits Please Try right Id :"));
     }
 
 
